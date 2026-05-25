@@ -39,9 +39,9 @@ const App = () => {
     }
       ]
     },
-
-   
-  ])
+ ],
+{ basename: '/freshmart-website' } 
+)
 
   return <RouterProvider router={router}/>
     
