@@ -16,7 +16,7 @@ const Navbar = () => {
         setShowMenu(!showMenu)
     }
 
-    useEffect(() => {
+    useEffect(() => {   
 
         const handleScroll = () => {
 
